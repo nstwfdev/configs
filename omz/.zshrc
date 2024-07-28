@@ -84,7 +84,7 @@ plugins=(
     zsh-autosuggestions
     zsh-syntax-highlighting
     zsh-completions
-    zsh-interactive-cd
+    #zsh-interactive-cd
     zsh-navigation-tools
     zoxide
     autoupdate
