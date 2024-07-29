@@ -84,6 +84,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git)
 plugins+=(aliases)
 plugins+=(zsh-interactive-cd)
+plugins+=(zsh-navigation-tools)
 plugins+=(zsh-autosuggestions)
 plugins+=(zsh-syntax-highlighting)
 plugins+=(zoxide)
