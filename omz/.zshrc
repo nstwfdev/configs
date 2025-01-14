@@ -122,10 +122,10 @@ alias dcp="docker compose pull"
 alias dcd="docker compose down"
 alias dcu="docker compose up -d"
 alias dcur="dcu --remove-orphans --force-recreate"
-alias dcl="docker compose logs -f"
 alias dcpur="dcp && dcd && dcur"
-alias dcpurl="dcp && dcd && dcur && dcl"
 alias dsp="docker system prune -a -f"
+alias dcl="docker compose logs -f"
+alias dcpurl="dcp && dcd && dcur && dsp && dcl"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
